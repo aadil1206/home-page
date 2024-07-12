@@ -27,9 +27,7 @@ function App() {
       <Video />
       <Gallery />
       <Testimonials />
-
       <Faq />
-
       <Footer />
     </div>
   );
