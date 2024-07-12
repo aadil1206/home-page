@@ -21,7 +21,7 @@ const Gallery = () => {
      
 <LuLayoutGrid className='gicon'/>
            <div className='gallery-head-text d-flex justify-content-center'>
-    <h2>Usage<span>Video</span></h2>
+    <h2><span>Gallery</span></h2>
        </div>
        <Loaders/>
        <p className='gallerypara'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply

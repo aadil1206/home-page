@@ -18,22 +18,22 @@ function App() {
 
   return (
     <div className='App'>
-     <Navbar/>
-     {/* <Works/>  */}
-    {/* <Cases/>  */}
+     <Navbar/> 
+     <Works/>  
+     <Cases/>  
 
-    {/* <DjTool/>
-    <WebApp/> 
-    <Video/> 
-    <Gallery/>
+      <DjTool/>
+    <WebApp/>  
+      <Video/>  
+      <Gallery/>
     <Testimonials/>
 
-     <Faq/>
+      <Faq/>
     
     
     
-  <Footer/>
-     */}
+  <Footer/>  
+     
    
    
       </div>

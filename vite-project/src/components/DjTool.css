@@ -6,6 +6,33 @@
     font-weight: 400;
     font-style: normal;
   }
+  .tool-web-dj h4{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #FDDF09;
+
+}
+.tool-web-dj h3{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+text-align: left;
+color: #CF1327;
+;
+}
+.tool-web-dj p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.27px;
+    text-align: left;
+color: #fff;    
+
+}
 .DjTool-main{
     width: 100%;
     height: 690px;
@@ -71,6 +98,14 @@ border-color: #FFFFFF80!important;
 .slick-next{
     display: flex!important;
     color: #D31629!important;
+}
+.slider-card{
+    position: relative;
+}
+.tool-web-dj{
+    position: absolute;
+    bottom: 0;
+    left:30px
 }
 .DjTool-main .slider-container{
 padding-top: 120px;

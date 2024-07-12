@@ -6,6 +6,21 @@
     padding-top: 200px;
     padding-bottom: 100px;
 }
+.slick-prev{
+    display: none!important;
+}
+.slick-next{
+    display: none!important;
+}
+.webappbtn button{
+    width: 197px;
+    height: 58px;
+  
+    border-radius: 5px ;
+    background: linear-gradient(180deg, #F6B910 -30.49%, #D71B2C 100%);
+
+    
+}
 .testicard-man::after{
     position: absolute;
     content: "";
@@ -21,8 +36,40 @@
 .slider-main-web{
     height: 880px!important;
 }
+.phone-web{
+    position: relative;
+}
+.phone-web::after{
+    content: ''; /* This is required for the pseudo-element to render */
+    position: absolute;
+    background: #07091FB5;
+    width: 31%;
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+}
+.phone-web::before{
+    content: ''; /* This is required for the pseudo-element to render */
+    position: absolute;
+    background: #07091FB5;
+    width: 31%;
+    height: 100%; 
+    top: 0; 
+    right: 0; 
+}
+
 .phone-web img{
     height: 880px!important;
     width: 100%;
+}
+.slick-next{
+    display: flex;
+}
+
+@media only screen and (max-width:576px){
+    .DjTool-main .slider-container {
+        padding-top: 230px;
+    }
+    
 }
 

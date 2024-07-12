@@ -70,19 +70,49 @@ const DjTool = () => {
           
             
                   <div className="col-12 col-sm-4 slider-card">
+                  <div className='tool-web-dj'>
+               <h4>24 Jun 23</h4>
+               <h3>DJ Deep Bhamra</h3>
+               <p>Badmaash Bangalore, India</p>
+            </div>
                    <img src={toolfirst} alt="" className='imgdj' />
                   </div>
                   <div className="col-12 col-sm-4 slider-card">
+                  <div className='tool-web-dj'>
+               <h4>24 Jun 23</h4>
+               <h3>DJ Deep Bhamra</h3>
+               <p>Badmaash Bangalore, India</p>
+            </div>
                    <img src={tooltwo} alt="" className='imgdj'/>
                   </div> <div className="col-12 col-sm-4 slider-card">
+                  <div className='tool-web-dj'>
+               <h4>24 Jun 23</h4>
+               <h3>DJ Deep Bhamra</h3>
+               <p>Badmaash Bangalore, India</p>
+            </div>
                    <img src={toolthree} alt="" className='imgdj'/>
                   </div>
                     <div className="col-12 col-sm-4 slider-card">
+                    <div className='tool-web-dj'>
+               <h4>24 Jun 23</h4>
+               <h3>DJ Deep Bhamra</h3>
+               <p>Badmaash Bangalore, India</p>
+            </div>
                    <img src={toolfirst} alt="" className='imgdj'/>
                   </div>
                   <div className="col-12 col-sm-4 slider-card">
+                  <div className='tool-web-dj'>
+               <h4>24 Jun 23</h4>
+               <h3>DJ Deep Bhamra</h3>
+               <p>Badmaash Bangalore, India</p>
+            </div>
                    <img src={tooltwo} alt="" className='imgdj'/>
                   </div> <div className="col-12 col-sm-4 slider-card">
+                  <div className='tool-web-dj'>
+               <h4>24 Jun 23</h4>
+               <h3>DJ Deep Bhamra</h3>
+               <p>Badmaash Bangalore, India</p>
+            </div>
                    <img src={toolthree} alt="" className='imgdj'/>
                   </div>
              

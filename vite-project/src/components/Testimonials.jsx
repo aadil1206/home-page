@@ -7,6 +7,10 @@ import './Testimonial.css'
 import man from '../assets/manager.png'
 import ceo from '../assets/ceo.png'
 import md from '../assets/md.png'
+import Loader from '../assets/Loaders/loader';
+import { MdOutlinePhoneIphone } from "react-icons/md";
+
+
 
 const Testimonials = () => {
   var settings = {
@@ -45,8 +49,22 @@ const Testimonials = () => {
 
   const data = [1, 2, 3,];
   return (
-    <div>
+    <div className="testimonial-wrapper">
       <div className="container">
+     
+      <div className='d-flex flex-column align-items-center mb-5'>
+         <MdOutlinePhoneIphone style={{fontSize:"48px",color:"#fff"}}/>
+        <div className="video-head-text d-flex justify-content-center align-items-center text-center">
+          <h2 style={{textAlign:"center"}}>
+            Client <span>Testimonials</span>
+          </h2>
+        </div>
+        <Loader />
+        <p className="videopara">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry.
+        </p></div>
         <div className="slider-container">
           <Slider {...settings} className="col-12 slider-main">
           

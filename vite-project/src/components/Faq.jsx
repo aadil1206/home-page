@@ -9,6 +9,8 @@ import {
   import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
   import { useState } from 'react'
   import './Faq.css'
+  import Loader from '../assets/Loaders/loader';
+import { MdOutlinePhoneIphone } from "react-icons/md";
 
 const Faq = () => {
     const [expanded, setExpanded] = useState(false)
@@ -18,13 +20,23 @@ const Faq = () => {
 
   return (
     <div className='Faq-Main'>
-      <div></div>
+      <div className='container'>
+      <div className='d-flex flex-column align-items-center mb-5'>
+         <MdOutlinePhoneIphone style={{fontSize:"48px",color:"#fff"}}/>
+        <div className="video-head-text d-flex justify-content-center align-items-center text-center">
+          <h2 style={{textAlign:"center"}}>
+            <span>FAQ</span>
+          </h2>
+        </div>
+        <Loader />
+       </div>
+      </div>
       <div className='container Faq'>
      
 
 
  
-  
+    <hr/>
       <Accordion
         expanded={expanded === 'panel1'}
         onChange={(event, isExpanded) => handleChange(isExpanded, 'panel1')}

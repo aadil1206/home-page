@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         <div className="footer-form-main col-12 col-sm-12 col-lg-6 col-md-12">
           <p>HelpDesk</p>
-          <div className="d-flex justify-content-between">
+          <div className="d-flex justify-content-between col-8">
             <div>
               <img src={whats} alt="" />
               <span className="whatscall">+91 1234 5678 90 </span>
