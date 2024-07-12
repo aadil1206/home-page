@@ -1,0 +1,123 @@
+
+.usecase-text-right h2{
+    font-family: Montserrat;
+font-size: 32px;
+font-weight: 500;
+line-height: 39.01px;
+text-align: left;
+color: #ED3E31;
+;
+text-transform: uppercase;
+}
+.usecase-text-left h2{
+    font-family: Montserrat;
+font-size: 32px;
+font-weight: 500;
+line-height: 39.01px;
+text-align: left;
+color: #FDDF09;
+;
+;
+text-transform: uppercase;
+}
+.usecase-text-left p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: justified;
+color: #fff;
+}
+.usecase-text-right p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: justified;
+color: #fff;
+}
+.usecase-text-left button{
+    width: 144px;
+height: 41px;
+background: linear-gradient(180deg, #F6B910 -30.49%, #D71B2C 100%);
+
+border-radius: 5px ;
+
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+
+}
+.usecase-text-right button{
+    width: 144px;
+height: 41px;
+background: linear-gradient(180deg, #F6B910 -30.49%, #D71B2C 100%);
+
+border-radius: 5px ;
+
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+
+}
+.usecase-text-left{
+    width: 544px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.usecase-text-right{
+    width: 544px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.use-cases-parent{
+    background-color:  #09173C;
+    padding: 80px 0px 100px 0px;
+
+}
+.use-cases-card-main .row  img{
+    padding:  1.5rem 0;
+    }
+.use-card-head{
+    padding-bottom: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.use-card-head h2{
+    font-family: Montserrat;
+font-size: 42px;
+font-weight: 500;
+line-height: 51.2px;
+
+color: #fff;
+padding-bottom: 1rem;
+}
+.use-card-head span{
+    color: #ED3E31;
+}
+
+@media only screen and (min-width:1200px) {
+    .use-cases-card-main .row  img{
+    width: 500px;
+    }
+}

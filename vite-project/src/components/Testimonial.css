@@ -1,0 +1,193 @@
+
+*{
+    box-sizing: border-box;
+}.testicard-md{
+   
+    height: 279px;
+    
+    border-radius: 15px;
+    position: relative;
+    /* background: 
+    linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),url('../assets/md.svg');
+    background-size:auto;
+    background-repeat: no-repeat; 
+    background-position: center;  */
+}
+.slider-main img{
+  width: 100%!important;
+    height: 279px!important;
+    border-radius: 15px!important;
+}
+.slick-slide img{
+    display: inline-block!important;
+}
+
+.testicard-ceo{
+   
+    height: 279px;
+    width: 100%;
+    /* width: 400px; */
+    /* background-color: blue; */
+    border-radius: 15px!important;
+    position: relative;
+    
+    
+    /* background: linear-gradient(rgba(219, 30, 45, 0.5), rgba(219, 30, 45, 0.5)),url('../assets/ceo.svg');
+    background-size: 133.33% 100%; 
+  background-repeat: no-repeat;  */
+  /* background-position: center;  */
+}
+.testicard-man::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-radius: 10px;
+    
+
+    background: rgba(0, 0, 0, 0.6588); 
+}
+.testicard-md::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-radius: 10px;
+    
+
+    background: rgba(0, 0, 0, 0.6588);
+}
+.testicard-ceo::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-radius: 10px;
+    
+
+    background: rgba(219, 30, 45, 0.502);
+}
+.testicard-man{
+   
+    height: 279px;
+    border-radius: 15px;
+    /* background-color: black; */
+width: 100%;
+position: relative;
+    /* background: 
+    linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), /* Color overlay */
+    
+    /* background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;  */
+
+}
+.slider-container{
+    width: 100%;
+}
+.slick-next{
+    display: hide!important;
+}
+.slick-prev, .slick-next {
+    display: none !important;
+}
+.slider-card-text p{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.85px;
+text-align: center;
+color: #fff;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/Comfortaa.ttf') format('truetype');
+    /* You may need to adjust the path depending on your project structure */
+    font-weight: 700; /* Specify font weight if needed */
+  }
+  
+  @font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('../fonts/MontserratAlternates.ttf') format('truetype');
+    /* Adjust the path accordingly */
+    font-weight: 500; /* Specify font weight if needed */
+  }
+  
+.slider-card-text h3{
+    font-family: Comfortaa;
+font-size: 16px;
+font-weight: 700;
+line-height: 13.74px;
+text-align: center;
+color: #fff;
+}
+.slide-icon{
+font-size:64px;
+color:#fff
+}
+.slider-card-text span{
+    font-family: Montserrat Alternates;
+font-size: 10px;
+font-weight: 500;
+line-height: 15.79px;
+text-align: center;
+color:#FDDF09;
+;
+}
+.slick-dots li.slick-active  {
+color: #FDDF09; /* Change to your desired color */
+  }
+.slider-card-text{
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0px;
+    align-items: center;
+    padding: 12px 21px;
+}
+.slider-card{
+    padding: 0 12px!important;
+}
+@media only screen and (min-width:392px) and (max-width:576px){
+    .slider-main .slider-card{
+        padding-left: 8px!important;
+        padding-right: 8px!important;
+    }
+   
+}
+@media only screen and (max-width:992px) and (min-width:768px){
+    
+    .slider-card-text{
+position: absolute;
+top: 24px;
+padding: 12 16px;
+    }
+    .slide-icon{
+        font-size:48px;
+        color:#fff
+        }
+}
+@media only screen and (max-width:768px) and (min-width:601px){
+    
+    .slider-card-text{
+position: absolute;
+top: 4px;
+padding: 12 8px;
+    }
+    .slider-card-text p{
+        margin-bottom: 12px!important;
+    }
+    .slide-icon{
+        font-size:18px;
+        color:#fff
+        }
+}

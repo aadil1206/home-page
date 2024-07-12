@@ -1,0 +1,83 @@
+
+.video-wrapper{
+    padding:5rem 0;
+    width: 100%;
+    height: 896px;
+    background-image: url('../assets/djtool.png');
+    background-repeat: no-repeat;
+    background-size: 100% 896px;
+}
+.video-head-text h2{
+    font-family: Montserrat;
+font-size: 42px;
+font-weight: 500;
+line-height: 51.2px;
+
+color: #fff;
+padding-bottom: 1rem;
+text-transform: uppercase;
+}
+.videopara{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 300;
+line-height: 19.5px;
+width: 60%;
+text-align: center;
+color: #fff;
+}
+.video-right{
+width: 100%;
+height: 48%;
+}
+.video-section{
+    width: 100%;
+    height: 490px;
+}
+.video-head-text span{
+    color: #ED3E31;
+}
+/* .ytp-large-play-button svg {
+    background-image: url('../assets/videoicon.png') no-repeat center center;
+    background-size: contain;
+  } */
+  
+
+@media only screen and (min-width:320px) and (max-width:576px){
+    .video-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .video-section .bigvideo{
+        width: 100%;
+        height: 32%;
+    }
+    .video-section .smvideo{
+        width: 100%;
+        height: 66%;
+    }
+    .video-section .smvideo .video-right{
+        width: 100%;
+        height: 48%;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:768px){
+    .video-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .video-section .bigvideo{
+        width: 100%;
+        height: 32%;
+    }
+    .video-section .smvideo{
+        width: 100%;
+        height: 66%;
+    }
+    .video-section .smvideo .video-right{
+        width: 100%;
+        height: 48%;
+    }
+}

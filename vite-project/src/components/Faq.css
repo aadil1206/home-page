@@ -1,0 +1,58 @@
+.Faq-Main {
+  width: 100%;
+  background-color: #07091f;
+}
+.accd {
+  box-shadow: none!important;
+  background-color: #07091f !important;
+
+  margin-bottom: 25px !important;
+  transition: transform 0.3s ease-in-out !important;
+}
+.accdhidetext {
+  font-family: "Montserrat" !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 21.94px !important;
+  text-align: left !important;
+  color: #fff !important;
+}
+.Accdhead {
+  font-family: "Montserrat" !important;
+
+  text-transform: capitalize !important;
+
+  color: #fff !important;
+
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 21.94px !important;
+  text-align: left !important;
+
+  margin: 0;
+  padding: 0;
+}
+.Faq-Main hr {
+  border: 1px solid #fff;
+  margin-block-end: 30px;
+}
+.accdicon{
+    color:#fff;
+    
+}
+#panel12-header{
+    border: none!important;
+}
+.MuiAccordionSummary-root{
+    border-bottom-color: red!important;
+}
+.spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  
+  
+ 

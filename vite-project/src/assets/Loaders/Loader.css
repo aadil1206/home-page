@@ -1,0 +1,57 @@
+.bars{
+    position: relative;
+    display: flex;
+       }
+       .bar{
+        background: #ec3533;
+        bottom: 1px;
+        height: 3px;
+        position: absolute;
+        width: 3px;
+        animation: bounce 0ms -800ms linear infinite alternate;
+       }
+       .bar:nth-child(1) {
+        left: 1px;
+        animation-duration: 469ms; 
+    }
+       .bar:nth-child(2){
+        left: 5px;
+        animation-duration: 428ms;
+       }
+       .bar:nth-child(3){
+        left: 9px;
+        animation-duration: 411ms;
+       }  .bar:nth-child(4){
+        left: 13px;
+        animation-duration: 449ms;
+       }  .bar:nth-child(5){
+        left: 17px;
+        animation-duration: 405ms;
+       }  .bar:nth-child(6){
+        left: 21px;
+        animation-duration: 479ms;
+       }  .bar:nth-child(7){
+        left: 25px;
+        animation-duration: 499ms;
+       }  .bar:nth-child(8){
+        left: 29px;
+        animation-duration: 459ms;
+       }
+       .bar:nth-child(9){
+        left: 33px;
+        animation-duration: 419ms;
+       }
+       .bar:nth-child(10){
+        left: 37px;
+        animation-duration: 512ms;
+       }
+       @keyframes bounce {
+        0% {
+            opacity: 0.48;
+            height: 4px;
+        }
+        100% {
+            opacity: 1;
+            height: 18px;
+        }
+      } 

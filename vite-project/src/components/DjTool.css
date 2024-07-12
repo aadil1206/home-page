@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Divine Razier';
+    src: url('/path/to/fonts/DivineRazier-Regular.woff2') format('woff2'),
+         url('/path/to/fonts/DivineRazier-Regular.woff') format('woff'),
+         url('/path/to/fonts/DivineRazier-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+.DjTool-main{
+    width: 100%;
+    height: 690px;
+    background-image: url('../assets/djtool.png');
+    background-size: 100% 690px;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+.DjTool-main .search-box-main h2{
+    font-family: Divine Razier;
+font-size: 55px;
+font-weight: 400;
+line-height: 55px;
+text-align: center;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+.DjTool-main .search-box-main{
+    width: 100%;
+    height: 291px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.102);
+   
+    border: 2px solid transparent;
+  border-image: linear-gradient(180deg, #FFFFFF 0%, #D31629 100%);
+  border-image-slice: 1;
+
+
+display: flex; 
+justify-content: space-evenly;
+flex-direction: column;
+align-items: center;
+
+
+}
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root{
+border-color: #FFFFFF80!important;
+}
+.search{
+    width: 718px;
+    background-color: #080A24D1;
+    ;
+    position: relative;
+    z-index: 20;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF80!important
+}
+.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input{
+    color: #646789!important;
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    color: #646789!important;
+}
+.search-icon{
+    color: #D31629;
+}
+.slick-prev{
+    display: flex!important;
+    color: #D31629!important;
+}
+.slick-next{
+    display: flex!important;
+    color: #D31629!important;
+}
+.DjTool-main .slider-container{
+padding-top: 120px;
+}
+.slider-main .imgdj{
+    height: 279px!important;
+}
+
+@media only screen and (max-width:992px) and (min-width:768px){
+    .search{
+        width: 100%;
+        background-color: #080A24D1;
+        ;
+        position: relative;
+        z-index: 20;
+        border-radius: 10px;
+        border: 2px solid #FFFFFF80!important
+    }
+    .DjTool-main .search-box-main{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .search-box-main img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:768px) and (min-width:576px){
+    .search{
+        width: 100%;
+        background-color: #080A24D1;
+        ;
+        position: relative;
+        z-index: 20;
+        border-radius: 10px;
+        border: 2px solid #FFFFFF80!important
+    }
+    .DjTool-main .search-box-main{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .search-box-main img{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:288px) and (max-width:576px){
+    .search{
+        width: 100%;
+        background-color: #080A24D1;
+        ;
+        position: relative;
+        z-index: 20;
+        border-radius: 10px;
+        border: 2px solid #FFFFFF80!important
+    }
+    .DjTool-main .search-box-main{
+        padding-left: 20px;
+        padding-right: 20px;
+       height: 160px;
+    }
+    .search-box-main img{
+        width: 100%;
+    }
+    .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input{
+        padding-top: 0.5rem!important;
+        padding-bottom: 0.5rem!important;
+    }
+}
