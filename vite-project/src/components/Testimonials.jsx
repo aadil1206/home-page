@@ -1,5 +1,6 @@
 import React from "react";
 
+import { FaQuoteLeft } from "react-icons/fa6";
 import Slider from "react-slick";
 import "./Testimonial.css";
 import man from "../assets/manager.png";

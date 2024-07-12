@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import Loader from "../assets/Loaders/loader";
 import { MdOutlinePhoneIphone } from "react-icons/md";
 
+
 const WebApp = () => {
   var settings = {
     dots: true,
