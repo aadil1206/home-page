@@ -1,75 +1,69 @@
+.WebApp-Wrapper {
+  background-color: #07091f;
+  width: 100%;
+  height: auto;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+.slick-prev {
+  display: none !important;
+}
+.slick-next {
+  display: none !important;
+}
+.webappbtn button {
+  width: 197px;
+  height: 58px;
 
-.WebApp-Wrapper{
-    background-color: #07091f;
-    width: 100%;
-    height: auto;
-    padding-top: 200px;
-    padding-bottom: 100px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #f6b910 -30.49%, #d71b2c 100%);
 }
-.slick-prev{
-    display: none!important;
-}
-.slick-next{
-    display: none!important;
-}
-.webappbtn button{
-    width: 197px;
-    height: 58px;
-  
-    border-radius: 5px ;
-    background: linear-gradient(180deg, #F6B910 -30.49%, #D71B2C 100%);
+.testicard-man::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  border-radius: 10px;
 
-    
+  background: rgba(0, 0, 0, 0.6588);
 }
-.testicard-man::after{
-    position: absolute;
-    content: "";
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    border-radius: 10px;
-    
-
-    background: rgba(0, 0, 0, 0.6588); 
+.slider-main-web {
+  height: 880px !important;
 }
-.slider-main-web{
-    height: 880px!important;
+.phone-web {
+  position: relative;
 }
-.phone-web{
-    position: relative;
+.phone-web::after {
+  content: "";
+  position: absolute;
+  background: #07091fb5;
+  width: 31%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
-.phone-web::after{
-    content: ''; /* This is required for the pseudo-element to render */
-    position: absolute;
-    background: #07091FB5;
-    width: 31%;
-    height: 100%; 
-    top: 0; 
-    left: 0; 
-}
-.phone-web::before{
-    content: ''; /* This is required for the pseudo-element to render */
-    position: absolute;
-    background: #07091FB5;
-    width: 31%;
-    height: 100%; 
-    top: 0; 
-    right: 0; 
+.phone-web::before {
+  content: "";
+  position: absolute;
+  background: #07091fb5;
+  width: 31%;
+  height: 100%;
+  top: 0;
+  right: 0;
 }
 
-.phone-web img{
-    height: 880px!important;
-    width: 100%;
+.phone-web img {
+  height: 880px !important;
+  width: 100%;
 }
-.slick-next{
-    display: flex;
-}
-
-@media only screen and (max-width:576px){
-    .DjTool-main .slider-container {
-        padding-top: 230px;
-    }
-    
+.slick-next {
+  display: flex;
 }
 
+@media only screen and (max-width: 576px) {
+  .DjTool-main .slider-container {
+    padding-top: 230px;
+  }
+}

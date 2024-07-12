@@ -5,7 +5,7 @@
   padding-bottom: 2rem;
 }
 .accd {
-  box-shadow: none!important;
+  box-shadow: none !important;
   background-color: #07091f !important;
 
   margin-bottom: 25px !important;
@@ -38,23 +38,18 @@
   border: 1px solid #fff;
   margin-block-end: 30px;
 }
-.accdicon{
-    color:#fff;
-    
+.accdicon {
+  color: #fff;
 }
-#panel12-header{
-    border: none!important;
+#panel12-header {
+  border: none !important;
 }
-.MuiAccordionSummary-root{
-    border-bottom-color: red!important;
+.MuiAccordionSummary-root {
+  border-bottom-color: red !important;
 }
 .spinner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  
-  
- 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

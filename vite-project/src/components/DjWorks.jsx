@@ -6,7 +6,7 @@ import qr from "../assets/qrcode.svg";
 import money from "../assets/money.svg";
 import playlist from "../assets/playlist.svg";
 import song from "../assets/song.svg";
-import Loaders from '../assets/Loaders/loader'
+import Loaders from "../assets/Loaders/loader";
 const DjWorks = () => {
   return (
     <div className="DjWorks-wrapper-main">
@@ -16,7 +16,7 @@ const DjWorks = () => {
             Here's how <span>DJFY works</span>
           </h2>
           <div>
-            <Loaders/>
+            <Loaders />
           </div>
         </div>
         <div className="row justify-content-center">
