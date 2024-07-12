@@ -298,7 +298,12 @@ color: #BCBCBC;
 @media only screen and (max-width:992px) and (min-width:768px){
     .nav-tab .list{
         padding: 0 20px ;
-    }.nav-tab .list img {
+    }
+    .Navbar-main .djfy-main {
+      
+        margin-top: 220px;
+    }
+    .nav-tab .list img {
         width: 60px;
         height: 70px;
     }
@@ -394,6 +399,9 @@ color: #BCBCBC;
 }
 @media only screen and (max-width:1200px) and (min-width:768px)
 {
+    .nav-tab .list{
+        padding: 0 40px;
+    }
     .dj-girl-main .above{
       width: 80%;
       }
