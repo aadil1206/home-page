@@ -18,7 +18,7 @@ const Gallery = () => {
   return (
     <div className="Gallery-wrapper">
       <div className="container Gallery-main">
-        <LuLayoutGrid className="gicon" />
+        <LuLayoutGrid className="gicon" style={{fontSize:"48px",color:"#fff"}} />
         <div className="gallery-head-text d-flex justify-content-center">
           <h2>
             <span>Gallery</span>
