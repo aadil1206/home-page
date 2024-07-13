@@ -37,6 +37,9 @@
   text-align: center;
   color: #fff;
 }
+a{
+  color: #fff!important;
+}
 .footer-logo-main p {
   font-family: Montserrat;
   font-size: 14px;
@@ -206,6 +209,7 @@ input {
   .footer-icon {
     text-align: center;
   }
+ 
   .footer-bottom {
     height: auto;
     padding: 12px 0;

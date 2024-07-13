@@ -20,14 +20,14 @@ function App() {
     <div className="App">
       <Navbar />
       <Works />
-      <Cases />
+      <div id="case"><Cases /></div>
 
       <DjTool />
-      <WebApp />
-      <Video />
-      <Gallery />
-      <Testimonials />
-      <Faq />
+      <div id="app"><WebApp /></div>
+      <div id="video"><Video /></div>
+      <div id="gallery"><Gallery /></div>
+      <div id="testimonial"><Testimonials /></div>
+      <div id="faq"><Faq /></div>
       <Footer />
     </div>
   );

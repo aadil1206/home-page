@@ -36,25 +36,25 @@ const Footer = () => {
                 <a href="">About</a>
               </li>
               <li>
-                <a href="">Uses Case</a>
+                <a href="#case">Uses Case</a>
               </li>
               <li>
                 <a href="">Events</a>
               </li>
               <li>
-                <a href="">Web Apps</a>
+                <a href="#app">Web Apps</a>
               </li>
               <li>
-                <a href="">Usage Video</a>
+                <a href="#video">Usage Video</a>
               </li>
               <li>
-                <a href="">Gallery</a>
+                <a href="#gallery">Gallery</a>
               </li>
               <li>
-                <a href="">Clients Testimonials</a>
+                <a href="#testimonial">Clients Testimonials</a>
               </li>
               <li>
-                <a href="">FAQ</a>
+                <a href="#faq">FAQ</a>
               </li>
               <li>
                 <a href="">Contact Us</a>
