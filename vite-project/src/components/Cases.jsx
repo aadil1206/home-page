@@ -19,11 +19,12 @@ const Cases = () => {
               </h2>
               <Loaders />
             </div>
-            <div className="col-12 d-flex flex-column flex-lg-row justify-content-between align-items-center pb-5">
+            <div className="row d-flex flex-column flex-lg-row justify-content-between align-items-center pb-5">
               <div className="col-lg-5 col-12">
-                <img src={uscfirst} alt="" />
+                <div><img src={uscfirst} alt="" /></div>
               </div>
               <div className="usecase-text-right col-lg-7 col-12">
+              <div>
                 <h2>Bar/Club/Venue DJ</h2>
                 <p>
                   In bars and clubs, our app empowers guests to influence the
@@ -33,10 +34,11 @@ const Cases = () => {
                   seamless experience that adds excitement to every night out.
                 </p>
                 <button>Register</button>
-              </div>
+              </div></div>
             </div>
-            <div className="col-12 d-flex flex-column flex-lg-row justify-content-between align-items-center pb-5">
+            <div className="row d-flex flex-column flex-lg-row justify-content-between align-items-center pb-5">
               <div className="usecase-text-left col-lg-7 col-12">
+              <div>
                 <h2>Musicians / Bands</h2>
                 <p>
                   In bars and clubs, our app empowers guests to influence the
@@ -46,16 +48,19 @@ const Cases = () => {
                   seamless experience that adds excitement to every night out.
                 </p>
                 <button>Register</button>
-              </div>
+              </div></div>
               <div className="col-lg-5 col-12">
-                <img src={usctwo} alt="" />
+              <div>
+                <img src={usctwo} alt="" /></div>
               </div>
             </div>
-            <div className="col-12 d-flex flex-column flex-lg-row justify-content-between align-items-center pb-5">
+            <div className="row d-flex flex-column flex-lg-row justify-content-between align-items-center pb-5">
               <div className="col-lg-5 col-12">
-                <img src={uscthree} alt="" />
+              <div>
+                <img src={uscthree} alt="" /></div>
               </div>
               <div className="usecase-text-right col-lg-7 col-12">
+              <div>
                 <h2>Bar/Club/Venue DJ</h2>
                 <p>
                   In bars and clubs, our app empowers guests to influence the
@@ -65,10 +70,11 @@ const Cases = () => {
                   seamless experience that adds excitement to every night out.
                 </p>
                 <button>Register</button>
-              </div>
+              </div></div>
             </div>
-            <div className="col-12 d-flex flex-column flex-lg-row justify-content-between align-items-center pb-5">
+            <div className="row d-flex flex-column flex-lg-row justify-content-between align-items-center pb-5">
               <div className="usecase-text-left col-lg-7 col-12">
+              <div>
                 <h2>Musicians / Bands</h2>
                 <p>
                   In bars and clubs, our app empowers guests to influence the
@@ -78,17 +84,19 @@ const Cases = () => {
                   seamless experience that adds excitement to every night out.
                 </p>
                 <button>Register</button>
-              </div>
+              </div></div>
               <div className="col-lg-5 col-12">
                 {" "}
-                <img src={uscfour} alt="" />
+                <div>
+                <img src={uscfour} alt="" /></div>
               </div>
             </div>
-            <div className="col-12 d-flex flex-column flex-lg-row justify-content-between align-items-center pb-5">
+            <div className="row d-flex flex-column flex-lg-row justify-content-between align-items-center pb-5">
               <div className="col-lg-5 col-12">
-                <img src={uscfive} alt="" />
+               <div> <img src={uscfive} alt="" /></div>
               </div>
               <div className="usecase-text-right col-lg-7 col-12">
+              <div>
                 <h2>Bar/Club/Venue DJ</h2>
                 <p>
                   In bars and clubs, our app empowers guests to influence the
@@ -98,7 +106,7 @@ const Cases = () => {
                   seamless experience that adds excitement to every night out.
                 </p>
                 <button>Register</button>
-              </div>
+              </div></div>
             </div>
           </div>
         </div>
